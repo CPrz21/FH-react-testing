@@ -1,0 +1,11 @@
+{
+  "name": "counter-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "counter-app-start": "cd apps/react-counter-app && yarn start",
+    "counter-app-build": "cd apps/react-counter-app && yarn build",
+    "counter-app-test": "cd apps/react-counter-app && yarn test",
+    "counter-app-eject": "cd apps/react-counter-app && yarn eject"
+  }
+}
