@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GiftGridItem/> should show component correctly 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Title Test"
+    src="https://i1.sndcdn.com/artworks-000215280715-a5fqyn-t500x500.jpg"
+  />
+  <p>
+    Title Test
+  </p>
+</div>
+`;
