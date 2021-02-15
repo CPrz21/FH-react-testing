@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "counter-app-start": "cd apps/react-counter-app && yarn start",
-    "counter-app-build": "cd apps/react-counter-app && yarn build",
-    "counter-app-test": "cd apps/react-counter-app && yarn test",
-    "counter-app-eject": "cd apps/react-counter-app && yarn eject"
+    "counter-app-install": "cd apps/counter-app && yarn install",
+    "counter-app-start": "cd apps/counter-app && yarn start",
+    "counter-app-build": "cd apps/counter-app && yarn build",
+    "counter-app-test": "cd apps/counter-app && yarn test",
+    "counter-app-eject": "cd apps/counter-app && yarn eject",
+    "giphy-app-install": "cd apps/giphy-app && yarn install",
+    "giphy-app-start": "cd apps/giphy-app && yarn start",
+    "giphy-app-build": "cd apps/giphy-app && yarn build",
+    "giphy-app-test": "cd apps/giphy-app && yarn test",
+    "giphy-app-eject": "cd apps/giphy-app && yarn eject"
   }
 }
