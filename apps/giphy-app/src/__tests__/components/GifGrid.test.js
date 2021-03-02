@@ -18,17 +18,26 @@ describe('<GifGrid />', () => {
 
   test('should show items when images are loaded from useFetchGifs', () => {
     const gifs = [{
-      id:'ABC',
-      url: 'https://localhost/any/thing.jpg',
-      title: 'Invisible Image'
-    }]
+        id:'ABC',
+        url: 'https://localhost/any/thing.jpg',
+        title: 'Invisible Image'
+      },
+      {
+        id:'CBA',
+        url: 'https://localhost/any/thing.jpg',
+        title: 'Invisible Image'
+      }
+    ]
 
     useFetchGifs.mockReturnValue({
       data: gifs,
       loading: false
     });
     const wrapper = shallow( < GifGrid category="Jest" /> );
+
     expect(wrapper).toMatchSnapshot();
+    expect(wrapper.find('p').exists()).toBe(false);
+    expect(wrapper.find('GifGridItem').length).toBe(gifs.length);
   })
   
   

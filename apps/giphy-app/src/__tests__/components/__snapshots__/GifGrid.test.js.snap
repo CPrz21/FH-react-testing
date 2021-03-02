@@ -38,6 +38,12 @@ exports[`<GifGrid /> should show items when images are loaded from useFetchGifs 
       title="Invisible Image"
       url="https://localhost/any/thing.jpg"
     />
+    <GifGridItem
+      id="CBA"
+      key="CBA"
+      title="Invisible Image"
+      url="https://localhost/any/thing.jpg"
+    />
   </div>
 </Fragment>
 `;
