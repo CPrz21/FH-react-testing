@@ -9,5 +9,6 @@ exports[`<AddCategory/> should show component correctly 1`] = `
     type="text"
     value=""
   />
+  <p />
 </form>
 `;
